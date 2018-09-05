@@ -10,5 +10,7 @@ package chapter2;
  * @author cadenfincke
  */
 public class main {
-    
+    public static void main(String[] args){
+        
+    }
 }

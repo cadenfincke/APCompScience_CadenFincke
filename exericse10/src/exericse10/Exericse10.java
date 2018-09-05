@@ -25,11 +25,12 @@ public class Exericse10 {
         hi = lo + hi;
         lo = hi - lo;
         }
+        int count = 1;
         for(int i=0;i<MAX_INDEX;i++){
             if (seq[i].mark)
-                System.out.println(seq[i].number +"*");
+                System.out.printf("%d: %d*%n",i+1,seq[i].number);
             else
-                System.out.println(seq[i].number);
+                System.out.printf("%d: %d%n",i+1,seq[i].number);
         }
     }
 }
